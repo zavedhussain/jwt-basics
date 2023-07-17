@@ -8,3 +8,8 @@ JWT created on sign-in/register
 Request for data with JWT token sent with headers
 
 JWT verified with [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) and data retrieved
+
+### ENV 
+JWT Secret stored in `.env` file in following format
+```
+JWT_SECRET=
